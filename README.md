@@ -20,6 +20,6 @@
 ### 四、核心代码  
 
 ### 五、实验运行截图  
-
+![Image text](https://raw.githubusercontent.com/ZNX609/5/master/1.png)
 ### 六、实验心得  
 通过一学期的学习
