@@ -18,8 +18,42 @@
 ### 三、实验过程  
 
 ### 四、核心代码  
+1.利用GUI窗体定义一个密码验证程序  
 
+     class Passwd extends JFrame implements ActionListener 
+    {
+	JLabel lb=new JLabel("请输入密码");
+	JPasswordField txt1=new JPasswordField(25) ;
+	JButton bn=new JButton("确定");
+	JTextField txt2=new JTextField(25);
+	Passwd(){
+		setSize(300,200);
+		setVisible(true);
+		setTitle("密码验证");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setLayout(new FlowLayout());
+		add(lb);
+		add(txt1);
+		txt1.setEchoChar('*');
+		add(bn);
+		add(txt2);
+		validate();
+		bn.addActionListener(this);
+	}
+2.
+    JCheckBox cb1=new JCheckBox("java");
+		cb1.addItemListener(this);
+		add(cb1);//添加单选框  
+    JRadioButton b1=new JRadioButton("java:张老师");
+		b1.addActionListener(this);
+		add(b1);//添加复选框
 ### 五、实验运行截图  
-![Image text](https://raw.githubusercontent.com/ZNX609/5/master/1.png)
+![Image text](https://raw.githubusercontent.com/ZNX609/5/master/1.png)  
+![Image text](https://raw.githubusercontent.com/ZNX609/5/master/2.png)
+
+
+
+
+
 ### 六、实验心得  
-通过一学期的学习
+    通过一学期的学习
